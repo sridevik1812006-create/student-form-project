@@ -1,0 +1,67 @@
+#table1{
+    margin: 5px;
+    padding: 3px;
+    border-color: black;
+}
+#table2{
+    margin-top: 15px;
+    border-color: black;
+}
+select{
+    width: 100%;
+}
+#button1,#button2{
+    background-color: aquamarine;
+    border-radius: 5px;
+   }
+#one{
+    display: flex;   /* Flexbox (display: flex) makes the two buttons share the space evenly. */
+    width: 276%;
+    
+}
+#one,button{
+    flex: 1;    /* Equal width */
+}
+#button3{
+    width: 100%;
+    background-color: #DC3545;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+th{
+    background-color: darkgray;
+}
+h1{
+    background-color: palevioletred;
+    width: 100%;
+    padding: 10px;
+}
+body{
+    text-align: center;
+    margin-top: 50px;
+    position:absolute;
+    background-color: black ;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    @media screen and(max-width: 768px)
+    
+}
+div{
+    border-radius: 15px;
+    padding: 50px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #ccc;
+    position: absolute;
+    z-index: 3;
+    background-color:antiquewhite;
+    width: 40%;
+    left: 28%;
+    top: 10%;
+    
+}
+

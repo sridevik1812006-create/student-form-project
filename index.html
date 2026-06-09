@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>   
+<center>  
+<h1>Student Form</h1>
+<form>
+<table id="table1" border="1">
+    <tr>
+    <th>Name</th> <td><input type="text"></td>
+    </tr>
+    <tr>
+    <th>Age</th> <td><input type="number"></td>
+    </tr>
+    <tr>
+        <th>Gender</th> <td><input type="radio" name="Gender" value="Male">Male 
+            <input type="radio" name="Gender" value="female">Female</td>
+    </tr>
+    <tr>
+        <th>Course</th> <td><select>
+            <option>Python</option>
+            <option>Java</option>
+            <option>Html</option>
+            <option>Css</option>
+            <option>Javascript</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+    <th>E-mail</th> <td><input type="email"></td>
+    </tr>
+    <td id="one" colspan="2"> 
+        <button type="button" id="button1" onclick="update()">Save</button>
+        <button id="button2" type="reset">Reset</button>
+    </td>
+    
+</table></form>
+
+
+<table id="table2" border="1">
+    <tr>
+    <th>NAME</th>
+    <th>AGE</th>
+    <th>GENDER</th>
+    <th>COURSE</th>
+    <th>EMAIL</th>
+    <th>ACTION</th>
+    </tr>
+
+</table>
+</center> 
+</div> 
+<script src="pro.js"></script>
+    
+</body>
+</html>
